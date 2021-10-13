@@ -9,8 +9,8 @@ class Form extends Component {
 
         */
        this.state  = 
-        {name:null,
-           URL:null,}
+        {name:'',
+           URL:'',}
        
     }
 

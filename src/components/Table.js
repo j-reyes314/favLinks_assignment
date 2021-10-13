@@ -14,7 +14,6 @@ const TableHeader = () => {
 }
 
 const TableBody = props => { 
-    console.log(props.linkData);
     // boilerplate table body functional component 
     // we use Array.map to create table rows from LinkData passed via props
     const rows = props.linkData.map((row, index) => {
